@@ -1,177 +1,143 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<!doctype html>
+<html lang="ar" dir="rtl" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>اختبار اتصال GitHub بـ Hostinger</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Cairo:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg-color: #0b0f19;
-            --card-bg: rgba(255, 255, 255, 0.03);
-            --border-color: rgba(255, 255, 255, 0.08);
-            --primary-glow: #3b82f6;
-            --success-glow: #10b981;
-            --text-main: #f3f4f6;
-            --text-muted: #9ca3af;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            font-family: 'Cairo', 'Outfit', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            overflow: hidden;
-            position: relative;
-        }
-
-        /* الخلفية المضيئة الدائرية */
-        body::before, body::after {
-            content: '';
-            position: absolute;
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            filter: blur(120px);
-            z-index: 0;
-            opacity: 0.15;
-        }
-        body::before {
-            background-color: var(--primary-glow);
-            top: 20%;
-            left: 25%;
-        }
-        body::after {
-            background-color: var(--success-glow);
-            bottom: 20%;
-            right: 25%;
-        }
-
-        .container {
-            position: relative;
-            z-index: 1;
-            text-align: center;
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            padding: 3rem 2rem;
-            border-radius: 24px;
-            backdrop-filter: blur(16px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-            max-width: 500px;
-            width: 90%;
-            animation: fadeIn 0.8s ease-out;
-        }
-
-        .icon-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            margin-bottom: 2rem;
-        }
-
-        .icon {
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 16px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border-color);
-        }
-
-        .icon svg {
-            width: 32px;
-            height: 32px;
-            fill: #fff;
-        }
-
-        .connector {
-            font-size: 24px;
-            color: var(--success-glow);
-            animation: pulse 1.5s infinite ease-in-out;
-        }
-
-        h1 {
-            font-size: 1.8rem;
-            font-weight: 900;
-            margin: 0 0 1rem 0;
-            background: linear-gradient(135deg, #fff 30%, #a5b4fc 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        p {
-            font-size: 1rem;
-            color: var(--text-muted);
-            line-height: 1.6;
-            margin: 0 0 2rem 0;
-        }
-
-        .status-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(16, 185, 129, 0.1);
-            border: 1px solid rgba(16, 185, 129, 0.2);
-            color: var(--success-glow);
-            padding: 8px 16px;
-            border-radius: 100px;
-            font-weight: 700;
-            font-size: 0.9rem;
-        }
-
-        .status-badge::before {
-            content: '';
-            width: 8px;
-            height: 8px;
-            background-color: var(--success-glow);
-            border-radius: 50%;
-            box-shadow: 0 0 8px var(--success-glow);
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 0.4; }
-            50% { opacity: 1; }
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مراجع تصميم داخلي — ٦ مواقع بحركة احترافية</title>
+<meta name="description" content="ستة مواقع كاملة لاستوديوهات تصميم داخلي، كل موقع بهوية وحركة مختلفة.">
+<meta name="theme-color" content="#111110">
+<meta property="og:title" content="مراجع تصميم داخلي — ٦ مواقع بحركة احترافية">
+<meta property="og:description" content="ستة مواقع كاملة لاستوديوهات تصميم داخلي، كل موقع بهوية وحركة مختلفة.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%23111110%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2Cserif%22%20font-size%3D%2238%22%20fill%3D%22%23f1ede4%22%3E%E2%97%90%3C%2Ftext%3E%3C%2Fsvg%3E">
+<script>
+document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+window.__FALLBACK__ = ["1618221195710-dd6b41faaea6","1600210492486-724fe5c67fb0","1600585154340-be6161a56a0c","1586023492125-27b2c045efd7","1555041469-a586c61ea9bc","1505693416388-ac5ce068fe85","1522708323590-d24dbb6b0267","1502672260266-1c1ef2d93688","1493809842364-78817add7ffb","1484154218962-a197022b5858","1560448204-e02f11c3d0e2","1513694203232-719a280e022f"];
+setTimeout(function () { if (!window.__STUDIO_STARTED__) document.documentElement.classList.remove('js'); }, 5000);
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="assets/core.css">
+<link rel="stylesheet" href="assets/sites/hub.css">
 </head>
-<body>
+<body class="s-hub " data-pt="panels" data-cursor>
+<div class="pt" aria-hidden="true"><div class="pt__panel"></div><div class="pt__panel"></div><div class="pt__panel"></div><div class="pt__panel"></div><div class="pt__panel"></div><div class="pt__panel"></div></div>
+<div class="cursor" aria-hidden="true"><div class="cursor__dot"></div><div class="cursor__label"></div></div>
 
-    <div class="container">
-        <div class="icon-container">
-            <!-- GitHub Icon -->
-            <div class="icon">
-                <svg viewBox="0 0 24 24">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
-            </div>
-            <div class="connector">✦</div>
-            <!-- Hostinger / Server Icon -->
-            <div class="icon">
-                <svg viewBox="0 0 24 24">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
-                </svg>
-            </div>
-        </div>
+<header class="hub-hd">
+  <span class="hub-hd__logo">Interior <em>References</em></span>
+  <span class="hub-hd__count">6 مواقع · 61 صفحة</span>
+</header>
+<main>
+  <section class="hub-hero">
+    <p class="hub-kicker" data-intro>مكتبة مرجعية — تصميم داخلي</p>
+    <h1 class="hub-title"><span data-split="words" data-split-load>ستة استوديوهات،</span><span data-split="words" data-split-load>ستّ <em class="serif">هويات</em> مختلفة.</span></h1>
+    <p class="hub-sub" data-intro>كل رابط تحت هو موقع متكامل بصفحاته (الرئيسية، المشاريع، صفحة مشروع، من نحن، الخدمات، تواصل) — مستوحى من أقوى مواقع التصميم الداخلي عالمياً، وبأسلوب حركة خاص فيه. الحركة شغالة على كل الأجهزة.</p>
+  </section>
 
-        <h1>اتصال ناجح!</h1>
-        <p>تم إعداد الربط التلقائي بين مستودع GitHub والاستضافة على هوستنغر بنجاح. أي تغيير ستقوم برفعه مستقبلاً سيظهر هنا فوراً.</p>
-        
-        <div class="status-badge">متصل ونشط</div>
+  <section class="hub-list" data-preview-list>
+    
+    <a class="hub-row" href="noir/" data-preview="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=900&q=80" style="--c:#0d0c0b;--a:#b89b72" data-reveal>
+      <span class="hub-row__n">01</span>
+      <span class="hub-row__name" dir="ltr">Maison Noir</span>
+      <span class="hub-row__style">فخامة داكنة — Editorial<small>مستوحى من: <bdi>Joseph Dirand · Pierre Yovanovitch</bdi></small></span>
+      <span class="hub-row__motion">Preloader عداد، انتقال ستائر، معرض أفقي مثبّت، مؤشر مخصص، معاينة صور عند المرور</span>
+      <span class="hub-row__route" dir="ltr">/noir</span>
+      <span class="hub-row__img media"><img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=80" srcset="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=480&q=80 480w, https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=80 800w" sizes="90vw" alt="Maison Noir" loading="lazy" decoding="async" ></span>
+    </a>
+    <a class="hub-row" href="nord/" data-preview="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=80" style="--c:#efebe4;--a:#5e6b52" data-reveal>
+      <span class="hub-row__n">02</span>
+      <span class="hub-row__name" dir="ltr">Nordhaus</span>
+      <span class="hub-row__style">اسكندنافي هادئ — Minimal<small>مستوحى من: <bdi>Norm Architects · Menu Space</bdi></small></span>
+      <span class="hub-row__motion">صورة تتوسع مع السكرول، قسم مثبّت تتبدل صوره، فلترة مشاريع متحركة (Flip)، شريط خامات</span>
+      <span class="hub-row__route" dir="ltr">/nord</span>
+      <span class="hub-row__img media"><img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=800&q=80" srcset="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=480&q=80 480w, https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=800&q=80 800w" sizes="90vw" alt="Nordhaus" loading="lazy" decoding="async" ></span>
+    </a>
+    <a class="hub-row" href="terra/" data-preview="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80" style="--c:#efe4d6;--a:#b65a36" data-reveal>
+      <span class="hub-row__n">03</span>
+      <span class="hub-row__name" dir="ltr">Atelier Terra</span>
+      <span class="hub-row__style">متوسطي دافئ — Organic<small>مستوحى من: <bdi>Studio KO · Cathie Hong</bdi></small></span>
+      <span class="hub-row__motion">أقواس تنكشف، ختم دوّار، تغيّر لون الخلفية مع السكرول، كروت مكدّسة، خط SVG يُرسم، سلايدر بالسحب</span>
+      <span class="hub-row__route" dir="ltr">/terra</span>
+      <span class="hub-row__img media"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" srcset="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=480&q=80 480w, https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80 800w" sizes="90vw" alt="Atelier Terra" loading="lazy" decoding="async" ></span>
+    </a>
+    <a class="hub-row" href="vanta/" data-preview="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=80" style="--c:#0e0e0e;--a:#d8ff3d" data-reveal>
+      <span class="hub-row__n">04</span>
+      <span class="hub-row__name" dir="ltr">VANTA</span>
+      <span class="hub-row__style">جريء وملوّن — Maximalist<small>مستوحى من: <bdi>Kelly Wearstler · Dimorestudio</bdi></small></span>
+      <span class="hub-row__motion">أثر صور يتبع الماوس، نصوص عملاقة تنحرف مع السرعة، انتقال مائل ملوّن، أزرار مغناطيسية، كروت ثلاثية الأبعاد</span>
+      <span class="hub-row__route" dir="ltr">/vanta</span>
+      <span class="hub-row__img media"><img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=800&q=80" srcset="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=480&q=80 480w, https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=800&q=80 800w" sizes="90vw" alt="VANTA" loading="lazy" decoding="async" ></span>
+    </a>
+    <a class="hub-row" href="dar/" data-preview="https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&w=900&q=80" style="--c:#0f2a24;--a:#c9a45c" data-reveal>
+      <span class="hub-row__n">05</span>
+      <span class="hub-row__name" >دار</span>
+      <span class="hub-row__style">عربي فاخر RTL — خليجي<small>مستوحى من: <bdi>Elite Design Studio · Gulf luxury</bdi></small></span>
+      <span class="hub-row__motion">صور تطفو حول الاسم مع السكرول، مقارنة قبل/بعد بالسحب، كروت ثلاثية الأبعاد، معرض أفقي RTL، عدّادات</span>
+      <span class="hub-row__route" dir="ltr">/dar</span>
+      <span class="hub-row__img media"><img src="https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&w=800&q=80" srcset="https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&w=480&q=80 480w, https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&w=800&q=80 800w" sizes="90vw" alt="دار" loading="lazy" decoding="async" ></span>
+    </a>
+    <a class="hub-row" href="lumen/" data-preview="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=900&q=80" style="--c:#f7f6f2;--a:#e8a33d" data-reveal>
+      <span class="hub-row__n">06</span>
+      <span class="hub-row__name" dir="ltr">Lumen</span>
+      <span class="hub-row__style">فنادق ومطاعم ومكاتب — Contemporary<small>مستوحى من: <bdi>Yabu Pushelberg · Rockwell Group</bdi></small></span>
+      <span class="hub-row__motion">زووم سينمائي للهيرو، تبويبات متحركة، قسم مثبّت يتبدل نصه، تبديل Grid/List بحركة Flip، أرقام متحركة</span>
+      <span class="hub-row__route" dir="ltr">/lumen</span>
+      <span class="hub-row__img media"><img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80" srcset="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=480&q=80 480w, https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80 800w" sizes="90vw" alt="Lumen" loading="lazy" decoding="async" ></span>
+    </a>
+  </section>
+
+  <section class="hub-map">
+    <h2 class="hub-h2" data-split="words">خريطة الصفحات</h2>
+    <div class="hub-map__grid">
+      
+      <div class="hub-map__col" data-reveal style="--a:#b89b72">
+        <h3><a href="noir/">Maison Noir</a></h3>
+        <ul><li><a href="noir/" dir="ltr">/noir</a></li><li><a href="noir/projects/" dir="ltr">/noir/projects</a></li><li><a href="noir/studio/" dir="ltr">/noir/studio</a></li><li><a href="noir/services/" dir="ltr">/noir/services</a></li><li><a href="noir/contact/" dir="ltr">/noir/contact</a></li><li class="muted">+ صفحات تفاصيل لكل مشروع</li></ul>
+      </div>
+      <div class="hub-map__col" data-reveal style="--a:#5e6b52">
+        <h3><a href="nord/">Nordhaus</a></h3>
+        <ul><li><a href="nord/" dir="ltr">/nord</a></li><li><a href="nord/projects/" dir="ltr">/nord/projects</a></li><li><a href="nord/studio/" dir="ltr">/nord/studio</a></li><li><a href="nord/services/" dir="ltr">/nord/services</a></li><li><a href="nord/contact/" dir="ltr">/nord/contact</a></li><li class="muted">+ صفحات تفاصيل لكل مشروع</li></ul>
+      </div>
+      <div class="hub-map__col" data-reveal style="--a:#b65a36">
+        <h3><a href="terra/">Atelier Terra</a></h3>
+        <ul><li><a href="terra/" dir="ltr">/terra</a></li><li><a href="terra/projects/" dir="ltr">/terra/projects</a></li><li><a href="terra/studio/" dir="ltr">/terra/studio</a></li><li><a href="terra/services/" dir="ltr">/terra/services</a></li><li><a href="terra/contact/" dir="ltr">/terra/contact</a></li><li class="muted">+ صفحات تفاصيل لكل مشروع</li></ul>
+      </div>
+      <div class="hub-map__col" data-reveal style="--a:#d8ff3d">
+        <h3><a href="vanta/">VANTA</a></h3>
+        <ul><li><a href="vanta/" dir="ltr">/vanta</a></li><li><a href="vanta/work/" dir="ltr">/vanta/work</a></li><li><a href="vanta/about/" dir="ltr">/vanta/about</a></li><li><a href="vanta/services/" dir="ltr">/vanta/services</a></li><li><a href="vanta/contact/" dir="ltr">/vanta/contact</a></li><li class="muted">+ صفحات تفاصيل لكل مشروع</li></ul>
+      </div>
+      <div class="hub-map__col" data-reveal style="--a:#c9a45c">
+        <h3><a href="dar/">دار</a></h3>
+        <ul><li><a href="dar/" dir="ltr">/dar</a></li><li><a href="dar/projects/" dir="ltr">/dar/projects</a></li><li><a href="dar/about/" dir="ltr">/dar/about</a></li><li><a href="dar/services/" dir="ltr">/dar/services</a></li><li><a href="dar/contact/" dir="ltr">/dar/contact</a></li><li class="muted">+ صفحات تفاصيل لكل مشروع</li></ul>
+      </div>
+      <div class="hub-map__col" data-reveal style="--a:#e8a33d">
+        <h3><a href="lumen/">Lumen</a></h3>
+        <ul><li><a href="lumen/" dir="ltr">/lumen</a></li><li><a href="lumen/work/" dir="ltr">/lumen/work</a></li><li><a href="lumen/studio/" dir="ltr">/lumen/studio</a></li><li><a href="lumen/services/" dir="ltr">/lumen/services</a></li><li><a href="lumen/contact/" dir="ltr">/lumen/contact</a></li><li class="muted">+ صفحات تفاصيل لكل مشروع</li></ul>
+      </div>
     </div>
+  </section>
+
+  <section class="hub-tech">
+    <h2 class="hub-h2" data-split="words">تحت الغطاء</h2>
+    <ul class="hub-tech__list" data-stagger>
+      <li><strong>GSAP + ScrollTrigger</strong><span>كل حركات السكرول، التثبيت، والمعارض الأفقية</span></li>
+      <li><strong>SplitText</strong><span>كشف النصوص حرفاً حرفاً وسطراً سطراً</span></li>
+      <li><strong>Flip</strong><span>فلترة المشاريع وتبديل العرض بحركة سلسة</span></li>
+      <li><strong>Lenis</strong><span>سكرول ناعم على الديسكتوب</span></li>
+      <li><strong>HTML ثابت</strong><span>بدون build — يرفع مباشرة على Hostinger</span></li>
+      <li><strong>متجاوب بالكامل</strong><span>الحركة تعمل حتى لو "تقليل الحركة" مفعّل بالجهاز</span></li>
+    </ul>
+  </section>
+</main>
+<footer class="hub-ft"><span>Interior References · نماذج مرجعية — الصور من Unsplash</span><span data-year></span></footer>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/SplitText.min.js"></script>
+<script src="assets/vendor/Flip.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/core.js"></script>
 
 </body>
 </html>
